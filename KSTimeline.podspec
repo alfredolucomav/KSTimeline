@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author             = { "KenShih522" => "kenshih522@gmail.com" }
   s.platform     = :ios, "10.0"
   s.source       = { :git => "https://github.com/KenShih522/KSTimeline", :tag => "0.1.1" }
-  s.source_files  = Dir['KSTimeline/*']
+  s.source_files  = Dir['KSTimeline/*.swift']
   s.requires_arc = true
   
 end
